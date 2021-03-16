@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Totaltime {
     public static void main(String[] args) {
+        System.out.println("Введите отрезок времени и нажмите ввод");
         Scanner scanT = new Scanner(System.in);
         int time = scanT.nextInt();
         int sec = time % 60;
